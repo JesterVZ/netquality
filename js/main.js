@@ -1,0 +1,19 @@
+jQuery(document).ready(function($) {
+    
+    $('.level-bar-inner').css('width', '0');
+    
+   /* $(window).on('load', function() { */
+        $(window).scrollTop(function(){ 
+        $('.level-bar-inner').each(function() {
+        
+            var itemWidth = $(this).data('level');
+            
+            $(this).animate({
+                width: itemWidth
+            }, 2000);
+            
+        });
+
+    });
+
+});
