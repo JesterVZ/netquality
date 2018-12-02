@@ -1,8 +1,12 @@
 $(document).ready(function () {
     $('.contacts_up').on("click", function(){
-        $('.overlay').show();
+        $('.overlay').fadeIn(500, function(){
+
+        });
     });
     $('.popup-close').on("click", function(){
-        $('.overlay').hide();
+        $('.overlay').fadeOut(500, function(){
+
+        });;
     });
 });

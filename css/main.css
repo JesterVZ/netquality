@@ -236,7 +236,6 @@ a:hover{
     position: fixed;
     left: 50%;
     width: 70%;
-    height: 300px;
     top: 100px;
     transform: translateX(-50%);
     background-color: #fff;
@@ -272,9 +271,14 @@ a:hover{
 .contact{
     display: inline-block;
     font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .contact-block{
     margin-bottom: 30px;
+}
+.go-to{
+    margin-top: 10px;
 }
 /*media*/
 @media(min-width: 500px){
