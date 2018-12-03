@@ -7,6 +7,6 @@ $(document).ready(function () {
     $('.popup-close').on("click", function(){
         $('.overlay').fadeOut(500, function(){
 
-        });;
+        });
     });
 });

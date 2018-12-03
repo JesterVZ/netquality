@@ -338,4 +338,14 @@ a:hover{
     .descr-item{
         max-width: none;
     }
+    .popup-form-contacts{
+        font-size: 15px;
+
+    }
+    .contact-block{
+        margin: 0;
+    }
+    .contact{
+        margin: 10px;
+    }
 }
