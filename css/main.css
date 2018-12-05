@@ -343,9 +343,12 @@ a:hover{
 
     }
     .contact-block{
-        margin: 0;
+        margin: 5px;;
     }
     .contact{
         margin: 10px;
+    }
+    .popup{
+        top: 85px;
     }
 }
