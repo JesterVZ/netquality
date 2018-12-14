@@ -221,6 +221,13 @@ a:hover{
 }
 .descr-gallery{
     text-align: center;
+    margin-bottom: 20px;
+}
+.banner{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 /*overlay*/
 .overlay{
