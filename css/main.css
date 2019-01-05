@@ -1,3 +1,6 @@
+body{
+    background-color: #383838;
+}
 input, textarea, select{
     border: 2px solid #ebb400;
     border-radius: 10px;
@@ -44,7 +47,7 @@ select{
 .button{
     width: 180px;
     height: 54px;
-    background-color: #ffee00;
+    background-color: #ebb400;
     border-radius: 50px;
     outline: none;
     border: none;
